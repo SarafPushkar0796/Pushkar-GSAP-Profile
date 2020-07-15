@@ -1,0 +1,94 @@
+/* 
+
+CSS color palette
+Primary - #FD5523
+Secondary - #37966F
+Accent - #FFFBE6
+
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000!important;
+}
+
+.navbar-brand {
+    position: absolute;
+    line-height: 80px;
+}
+
+.navbar-brand {margin-top: 20px;}
+
+.media {
+    position: absolute;
+    right: -150px;
+    top: 50%;
+    transform: rotate(90deg);
+}
+
+.media ul {
+    list-style: none;
+}
+
+.media ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .7);
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-right: 40px;
+}
+
+.share {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: #000;
+    font-size: 20px;
+}
+
+.name-header{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    color: #FD5523;
+    font-family: "Monument Extended";
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.header {    
+    color: #37966F;
+    font-family: "Monument Extended";
+    letter-spacing: 3px;
+}
+
+h3 span {
+    -webkit-text-stroke: 0.5px #37966F;
+    color: rgba(0,0,0,0);
+}
+
+h3,h1 span {        
+    font-family: "Monument Extended";
+    letter-spacing: 3px;
+    color: #37966F;
+}
+
+canvas{
+    margin-left: 23%;
+    margin-top: 4%;
+    width: 650px;
+    height: 650px;
+}
